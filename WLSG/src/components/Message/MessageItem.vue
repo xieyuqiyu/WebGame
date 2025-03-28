@@ -122,10 +122,7 @@ onMounted(() => {
   justify-content: space-between;
   z-index: 9999;
 
-  background: linear-gradient(171.78079deg, rgba(34, 197, 94, 0.10) 15%, rgba(34, 197, 94, 0.05) 85%), rgba(0, 0, 0, 0.00);
-  box-shadow: 0rem 0.25rem 0.38rem -0.25rem rgba(0, 0, 0, 0.10), 0rem 0.62rem 0.94rem -0.19rem rgba(0, 0, 0, 0.10), 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.00), 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.00);
-  border: 0.06rem solid rgba(34, 197, 94, 0.20);
-  border-radius: 0.75rem;
+
 
 
 }
@@ -166,13 +163,18 @@ onMounted(() => {
   font-weight: 600;
   line-height: 1.5rem;
   /* 1.5 */
+  background: linear-gradient(171.78079deg, #63FC9C 15%, #87E4A9 85%);
+  box-shadow: 0rem 0.25rem 0.38rem -0.25rem rgba(0, 0, 0, 0.10), 0rem 0.62rem 0.94rem -0.19rem rgba(0, 0, 0, 0.10), 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.00), 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.00);
+  border: 0.06rem solid rgba(34, 197, 94, 0.20);
+  border-radius: 0.75rem;
+
+
 
 
 
 }
 
 .message-warning {
-  /* border-left: 0px solid #e6a23c; */
   color: #A16207;
   font-family: "Inter";
   font-size: 1rem;
@@ -180,11 +182,14 @@ onMounted(() => {
   font-weight: 600;
   line-height: 1.5rem;
   /* 1.5 */
+  background: linear-gradient(171.78079deg, #F7D05A 15%, #EACA65 85%);
+  box-shadow: 0rem 0.25rem 0.38rem -0.25rem rgba(0, 0, 0, 0.10), 0rem 0.62rem 0.94rem -0.19rem rgba(0, 0, 0, 0.10), 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.00), 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.00);
+  border: 0.06rem solid rgba(234, 179, 8, 0.20);
+  border-radius: 0.75rem;
 
 }
 
 .message-error {
-  /* border-left: 0px solid #f56c6c; */
   color: #B91C1C;
   font-family: "Inter";
   font-size: 1rem;
@@ -192,11 +197,14 @@ onMounted(() => {
   font-weight: 600;
   line-height: 1.5rem;
   /* 1.5 */
+  background: linear-gradient(171.78079deg, #EFC4C4 15%, #F6CDCD 85%);
+  box-shadow: 0rem 0.25rem 0.38rem -0.25rem rgba(0, 0, 0, 0.10), 0rem 0.62rem 0.94rem -0.19rem rgba(0, 0, 0, 0.10), 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.00), 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.00);
+  border: 0.06rem solid rgba(239, 68, 68, 0.20);
+  border-radius: 0.75rem;
 
 }
 
 .message-info {
-  /* border-left: 0px solid #909399; */
   color: #374151;
   font-family: "Inter";
   font-size: 1rem;
@@ -204,6 +212,11 @@ onMounted(() => {
   font-weight: 600;
   line-height: 1.5rem;
   /* 1.5 */
+  background: linear-gradient(171.78079deg, #C2D5F4 15%, #ACCAFA 85%);
+  box-shadow: 0rem 0.25rem 0.38rem -0.25rem rgba(0, 0, 0, 0.10), 0rem 0.62rem 0.94rem -0.19rem rgba(0, 0, 0, 0.10), 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.00), 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.00);
+  border: 0.06rem solid rgba(59, 130, 246, 0.20);
+  border-radius: 0.75rem;
+
 
 }
 

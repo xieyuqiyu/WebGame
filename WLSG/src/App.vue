@@ -1,10 +1,11 @@
 <script setup>
 import { ref } from 'vue';
 import { message } from '@/utils';
+import NavBar from '@/components/NavBar';
 const test = (e) => {
- 
+
   if (e === 'error') {
-    message.error('Error');   
+    message.error('Error');
   } else if (e === 'success') {
     message.success('Success');
   } else if (e === 'warning') {
@@ -12,12 +13,14 @@ const test = (e) => {
   } else {
     message.info('Info');
   }
- 
+
 }
 </script>
 
 <template>
-  <div>
+
+  <div class="content-container">
+    <NavBar />
     Hi
     <button @click="test('error')">
       Test
@@ -35,5 +38,8 @@ const test = (e) => {
 </template>
 
 <style scoped>
-
+.content-container {
+  margin-top: 80px;
+  padding: 0 2rem;
+}
 </style>
